@@ -27,21 +27,17 @@
 }
 
 #form1 *{
-    color: rgb(252, 238, 238);
+    color: rgb(9, 9, 10);
     font-size: 120%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
-#uname{
-    color: black;
-    font-family:'cursive';
-    
-}
-.btn1 *{
-    margin-top: 10%;
+.btn1{
+    margin-top: 08%;
     background-color: rgba(75, 148, 190, 0.699);
     border-radius: 0.3em;
     font-size: 20px;
 }
-.btn1:hover *{
+.btn1:hover {
     background-color: rgb(88, 78, 78);
 }
