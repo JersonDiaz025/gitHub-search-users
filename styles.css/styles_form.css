@@ -8,15 +8,17 @@
     margin-right: 10%;
     width: 80%;
 }
+
 .title1:hover{
     background-color: bisque;
 }
+
 .body1{
     background-color: rgba(92, 80, 104, 0.527);
 }   
 
 #section1{
-    background-color: rgba(177, 211, 113, 0.568);
+    background-color: rgba(134, 202, 17, 0.644);
     text-align: center;
     margin-top: 08%;
     margin-left: 30%;
@@ -38,6 +40,39 @@
     border-radius: 0.3em;
     font-size: 20px;
 }
+
 .btn1:hover {
     background-color: rgb(88, 78, 78);
 }
+
+.dates_Styles {
+    color: rgb(7, 7, 7);
+    margin-top: -15%;
+    margin-left: 30%;
+    line-height: 3;
+}
+
+@media(max-width:1990px){
+    .dates_Styles {
+        color: rgb(7, 7, 7);
+        margin-top: -15%;
+        margin-left: 30%;
+        line-height: 3;
+    }
+}
+
+@media(max-width:836px) {
+    .uname1{
+        width: 115%;
+    }
+    .dates_Styles{
+        margin-left: 49.5%;
+        margin-top: -40%;
+    }
+}
+@media(max-width:1200px) {
+    .dates_Styles{
+        margin-left: 40%;
+        margin-top: -25%;
+    }
+} 

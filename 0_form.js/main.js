@@ -1,9 +1,6 @@
 const doc = document;
 const input1 = doc.getElementById("submit");
 const dates = doc.getElementById("inf1");
-const urlAPI = `https://api.github.com/users/`
-
-
 
 doc.addEventListener("submit",(s)=>{
     s.preventDefault()
@@ -13,64 +10,58 @@ doc.addEventListener("submit",(s)=>{
     else{   
         let asigText = `https://api.github.com/users/${s.target[0].value}`
         s.target[0].value = " "
-        
-        fetch(asigText)
-            .then(response =>response.json())
-            .then(data=>{
-                
-                dates.innerHTML = `<img src="${data.avatar_url}" alt="">
-                                    <p>Name: ${data.login}</p>
-                                    <li>Repository name: ${data.name}</li>
-                                    <li>Followers: ${data.followers}</li>
-                                    // <p href=${data.url}>
-                                    
-                                    `
-        
-            })
-            
-        }
 
+        fetch(asigText)
+            .then(request =>request.json()) 
+            .then(data=>{
+                if(data.message === "Not Found"){
+                    alert("(Invalid) .. this name is not associated with any repository")
+                    location.reload()
+                }else{
+                    dates.innerHTML=`<img src="${data.avatar_url}" alt="">
+                                        <section class= "dates_Styles">
+                                            <li class="li1">NAME:----- ${data.login}</li>
+                                            <li class="li2">REPOSITORY NAME:----- ${data.name}</li>
+                                            <li class="li3">FOLLOWERS:------- ${data.followers}</li>
+                                            <p class="li4">
+                                                <a href=${data.html_url}>${data.html_url}</a>
+                                            </p>
+                                        </section>
+                                    `
+                    }              
+            })           
+        }
 })      
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
     
-        
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
