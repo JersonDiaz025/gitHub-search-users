@@ -1,41 +1,41 @@
 .title1{
-    background-color: rgba(75, 148, 190, 0.699);
+    background-color: rgba(178, 210, 228, 0.699);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 2rem;
-    margin-top: 05%;
-    border-radius: 3em;
-    margin-left: 3.5%;
-    margin-right: 10%;
+    padding: 1%;
+    margin-top: 4%;
+    border-radius: 9px;
+    margin-left: 9%;
     width: 80%;
 }
-
 .body1{
     background-color: rgba(29, 28, 28);
-}   
-
+}
 #section1{
     background-color: rgba(133, 133, 133);
     text-align: center;
     margin-top: 08%;
-    margin-left: 30%;
-    width: 20%;
-    height: 100px;
-    padding: 6rem;
+    margin-left: 35%;
+    width: 12%;
+    height: 184px;
+    padding: 4rem;
     border-radius: 15px;
 }
 
-#form1 {
-    margin-top: -30px;
-    color: rgb(252, 238, 238);
-    font-size: 120%;
-}
 .uname1{
-    color:black;
-    font-size: 22px;
+    color:rgb(14, 13, 13);
+    font-size: 20px;
     line-height: 2;
 }
+.input1{
+    text-align: center;
+    height: 35px;
+    border: solid rgb(131, 107, 107) 2px;
+    border-radius: 5px;
+    padding:  9px;
+}
+
 .btn1{
-    margin-top: 20px;
+    margin-top: 30px;
     background-color: rgba(75, 148, 190);
     border-radius: 5px;
     font-size: 20px;
@@ -45,41 +45,34 @@
 }
 
 .btn1:hover {
-    background-color: rgb(54, 135, 182);
+    background-color: rgb(88, 78, 78);
 }
 
-input{
-    height: 40px;
-    border: solid rgb(92, 92, 92) 2px;
-    border-radius: 5px;
-    padding: 5px;
-}
 input:focus{
-    outline: none;
+    outline : none;
+}
+
+.info_user{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img_user{
+    width: 34%;
 }
 
 .dates_Styles {
-    color: rgb(248, 225, 225);
-    margin-top: -25%;
+    color: rgb(248, 244, 244);
+    width: 70%;
     margin-left: 40%;
-    line-height: 3;
+    margin-top: -17%;
+    line-height: 3; 
 }
 
-/* @media(max-width:1990px){
-    .dates_Styles {
-        color: rgb(7, 7, 7);
-        margin-top: -15%;
-        margin-left: 30%;
-        line-height: 3;
+@media screen and (min-width: 1300px){
+    .img_user{
+        height: 10%;
+        width: 21%;
     }
-} */
-
-/* @media(max-width:836px) {
-    .uname1{
-        width: 115%;
-    }
-    .dates_Styles{
-        margin-left: 49.5%;
-        margin-top: -40%;
-    }
-} */
+}
