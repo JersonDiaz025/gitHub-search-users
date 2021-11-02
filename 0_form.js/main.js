@@ -21,7 +21,7 @@ doc.addEventListener("submit",(s)=>{
                     dates.innerHTML=`<img src="${data.avatar_url}" alt="">
                                         <section class= "dates_Styles">
                                             <li class="li1">NAME:----- ${data.login}</li>
-                                            <li class="li2">REPOSITORY NAME:----- ${data.name}</li>
+                                            <li class="li2">REPOSITORY  NAME:----- ${data.name}</li>
                                             <li class="li3">FOLLOWERS:------- ${data.followers}</li>
                                             <p class="li4">
                                                 <a href=${data.html_url}>${data.html_url}</a>

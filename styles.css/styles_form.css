@@ -9,59 +9,72 @@
     width: 80%;
 }
 
-.title1:hover{
-    background-color: bisque;
-}
-
 .body1{
-    background-color: rgba(92, 80, 104, 0.527);
+    background-color: rgba(29, 28, 28);
 }   
 
 #section1{
-    background-color: rgba(134, 202, 17, 0.644);
+    background-color: rgba(133, 133, 133);
     text-align: center;
     margin-top: 08%;
     margin-left: 30%;
     width: 20%;
     height: 100px;
     padding: 6rem;
-    border-radius: 3em;
+    border-radius: 15px;
 }
 
-#form1 *{
-    color: rgb(9, 9, 10);
+#form1 {
+    margin-top: -30px;
+    color: rgb(252, 238, 238);
     font-size: 120%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-
+.uname1{
+    color:black;
+    font-size: 22px;
+    line-height: 2;
+}
 .btn1{
-    margin-top: 08%;
-    background-color: rgba(75, 148, 190, 0.699);
-    border-radius: 0.3em;
+    margin-top: 20px;
+    background-color: rgba(75, 148, 190);
+    border-radius: 5px;
     font-size: 20px;
+    color: white;
+    border: solid rgb(54, 135, 182) 2px;
+    padding: 10px;
 }
 
 .btn1:hover {
-    background-color: rgb(88, 78, 78);
+    background-color: rgb(54, 135, 182);
+}
+
+input{
+    height: 40px;
+    border: solid rgb(92, 92, 92) 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+input:focus{
+    outline: none;
 }
 
 .dates_Styles {
-    color: rgb(7, 7, 7);
-    margin-top: -15%;
-    margin-left: 30%;
+    color: rgb(248, 225, 225);
+    margin-top: -25%;
+    margin-left: 40%;
     line-height: 3;
 }
 
-@media(max-width:1990px){
+/* @media(max-width:1990px){
     .dates_Styles {
         color: rgb(7, 7, 7);
         margin-top: -15%;
         margin-left: 30%;
         line-height: 3;
     }
-}
+} */
 
-@media(max-width:836px) {
+/* @media(max-width:836px) {
     .uname1{
         width: 115%;
     }
@@ -69,10 +82,4 @@
         margin-left: 49.5%;
         margin-top: -40%;
     }
-}
-@media(max-width:1200px) {
-    .dates_Styles{
-        margin-left: 40%;
-        margin-top: -25%;
-    }
-} 
+} */
