@@ -8,30 +8,109 @@
     width: 80%;
 }
 .body1{
-    background-color: rgba(29, 28, 28);
-    background-image: url();
+    background-image: url(https://www.wallpapertip.com/wmimgs/22-221456_git-branch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
 }
+
 #section1{
     background-color: rgba(133, 133, 133);
-    margin-top: 08%;
+    padding: 4rem;
+    display:flex;
     margin-left: auto;
     margin-right: auto;
-    width: 12vw;
-    height: 184px;
-    padding: 3rem;
-    border-radius: 15px;
+    margin-top: 11vh;
+    width: 10vw;
+    height: 25vh;
+    border-radius: 3%;
+    /* opacity: 0.1; */
 }
 
-.uname1{
-    color:rgb(14, 13, 13);
-    font-size: 20px;
+.form1{
+    text-align: center;
+    margin-left: -10%;
     line-height: 3;
-
+    font-size: 100%;
 }
+
 .input1{
+    font-size: 110%;
+    padding: 3%;
+    outline: none;
+}
+.input1:focus{
+    color: black;
+    border-color: rgba(29, 28, 28);
+}
+
+.btn1{
+    font-size: 100%;
+    margin-top: 15%;
+    border:0;
+    border-radius: 5%;
+    padding: 3%;
+    width: 40%;
+    background-color: rgb(247, 244, 236); 
+}
+
+.btn1:hover{
+    background-color:  rgba(178, 210, 228, 0.699);
+}
+
+/* @media(min-width:100px) {
+    .form1{
+        text-align: center;
+        margin-left: -40%;
+        font-size: 80%;
+    }
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .form1{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    width: 10vw;
+} */
+
+/* .uname1{
+    color:rgb(14, 13, 13);
+    font-size:x-large;
+    line-height: 2;
+    
+
+} */
+/* .input1{
     border: solid rgb(131, 107, 107) 2px;
     border-radius: 5px;
-    width: 10vw;
+    width: 09vw;
     padding: 10%;
 }
 
@@ -43,16 +122,16 @@
     color: white;
     border: solid rgb(54, 135, 182) 2px;
     padding: 10px;
-    margin-left: 26%;
-}
+    margin-left: 30% ;
+} */
 
-.btn1:hover {
+/* .btn1:hover {
     background-color: rgb(88, 78, 78);
 }
 
 input:focus{
     outline : none;
-}
+} */
 
 .info_user{
     display: flex;
@@ -72,9 +151,9 @@ input:focus{
     line-height: 3; 
 }
 
-@media screen and (min-width: 1300px){
+/* @media screen and (min-width: 1300px){
     .img_user{
         height: 10%;
         width: 21%;
     }
-}
+} */
