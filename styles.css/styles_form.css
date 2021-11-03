@@ -9,39 +9,41 @@
 }
 .body1{
     background-color: rgba(29, 28, 28);
+    background-image: url();
 }
 #section1{
     background-color: rgba(133, 133, 133);
-    text-align: center;
     margin-top: 08%;
-    margin-left: 35%;
-    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12vw;
     height: 184px;
-    padding: 4rem;
+    padding: 3rem;
     border-radius: 15px;
 }
 
 .uname1{
     color:rgb(14, 13, 13);
     font-size: 20px;
-    line-height: 2;
+    line-height: 3;
+
 }
 .input1{
-    text-align: center;
-    height: 35px;
     border: solid rgb(131, 107, 107) 2px;
     border-radius: 5px;
-    padding:  9px;
+    width: 10vw;
+    padding: 10%;
 }
 
 .btn1{
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: rgba(75, 148, 190);
     border-radius: 5px;
     font-size: 20px;
     color: white;
     border: solid rgb(54, 135, 182) 2px;
     padding: 10px;
+    margin-left: 26%;
 }
 
 .btn1:hover {
