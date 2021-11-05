@@ -3,15 +3,17 @@
     background-color: rgba(178, 210, 228, 0.699);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 1%;
-    margin-top: 1rem;
+    margin-top: 2.4rem;
     border-radius: 9px;
     margin-left: 9%;
     width: 80%;
 }
+
 .body1{
     background-image: url(https://www.wallpapertip.com/wmimgs/22-221456_git-branch.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: 150%;
 }
 
 #section1{
@@ -20,10 +22,11 @@
     display:flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 11vh;
-    width: 20vw;
-    height: 38vh;
+    margin-top: 15vh;
+    width: 30vw;
+    height: 39vh;
     border-radius: 3%;
+    
 }
 
 .form1{
@@ -36,7 +39,7 @@
 .form1 p{
     text-align: center;
     font-size: 1.3rem;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
 .input1{
@@ -46,6 +49,7 @@
     display: block;
     margin: 3px auto;
 }
+
 .input1:focus{
     color: black;
     border-color: rgba(29, 28, 28);
@@ -65,59 +69,25 @@
     background-color:  rgba(178, 210, 228, 0.699);
 }
 
-@media(max-width:1000px){
-    .form1{
-        text-align: center; 
-        margin-left: auto; 
-        margin-right: auto; 
-        width: 90%; 
-        }
+@media(min-width:1200px){
     #section1{
-        width: 50vw;
-        height: 40vh; 
-  
-}
-}
-
-/* .form1{
-    margin-left: auto;
-    margin-right: auto;
-    font-size: x-large;
-    width: 10vw;
-} */
-
-/* .uname1{
-    color:rgb(14, 13, 13);
-    font-size:x-large;
-    line-height: 2;
-    
-
-} */
-/* .input1{
-    border: solid rgb(131, 107, 107) 2px;
-    border-radius: 5px;
-    width: 09vw;
-    padding: 10%;
+        width: 19vw;
+        height: 30vh;
+    }
 }
 
-.btn1{
-    margin-top: 20px;
-    background-color: rgba(75, 148, 190);
-    border-radius: 5px;
-    font-size: 20px;
-    color: white;
-    border: solid rgb(54, 135, 182) 2px;
-    padding: 10px;
-    margin-left: 30% ;
-} */
-
-/* .btn1:hover {
-    background-color: rgb(88, 78, 78);
+@media(max-width:1000px) {
+    #section1{
+        height: 33vh;
+        width: 55vw;
+    }
+    .body1{
+        background-size: 500%;
+    }
+    .input1{
+        width: 50%;
+    }
 }
-
-input:focus{
-    outline : none;
-} */
 
 .info_user{
     display: flex;
@@ -126,20 +96,15 @@ input:focus{
 }
 
 .img_user{
-    width: 34%;
+    width: 19%;
 }
 
 .dates_Styles {
-    color: rgb(248, 244, 244);
+    padding: 1rem;
+    color: aliceblue;
     width: 70%;
-    margin-left: 40%;
+    margin-left: 20%;
     margin-top: -17%;
-    line-height: 3; 
+    line-height: 2.5; 
 }
 
-/* @media screen and (min-width: 1300px){
-    .img_user{
-        height: 10%;
-        width: 21%;
-    }
-} */
